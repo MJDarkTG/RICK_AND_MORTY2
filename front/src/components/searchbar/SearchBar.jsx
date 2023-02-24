@@ -14,7 +14,7 @@ export default function SearchBar(props) {
    return (
       <div className={s.miDiv}>
          <input className={s.Inp} type='search' value={character} onChange={handleChange} />
-         <button className={s.Btn} onClick={() => onSearch(character)}>Agregar</button>
+         <button className={s.Btn} onClick={() => onSearch(character)}>Agregar </button>
       </div>
    );
 }
